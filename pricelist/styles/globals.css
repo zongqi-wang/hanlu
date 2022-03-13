@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --bg-footer: rgb(51, 51, 51);
+  --bg-nav: #f3f3f3;
+  --bg: linear-gradient(rgb(71, 138, 201), rgb(237, 84, 151));
+
+  --text-color: #dadce1;
+  --border-radius: 8px;
+
+  --h1-size: 3em;
+}

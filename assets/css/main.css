@@ -38,7 +38,7 @@ nav {
   vertical-align: middle;
   display: flex;
   width: 100%;
-  font-family: "KaiTi";
+  /* font-family: "KaiTi"; */
   color: #3e3f3e;
   border-bottom: #3e3f3e 2px;
   border-style: none none solid none;
@@ -89,6 +89,14 @@ main {
 
 .package-options {
   list-style: none;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  font-size: 3em;
+  font-weight: 600;
+  color: white;
 }
 
 footer {
